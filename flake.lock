@@ -42,7 +42,7 @@
           "devshell"
         ],
         "nixpkgs": [
-          "nixos"
+          "latest"
         ]
       },
       "locked": {
@@ -132,11 +132,11 @@
           "home"
         ],
         "nixlib": [
-          "nixos"
+          "latest"
         ],
         "nixos-generators": "nixos-generators",
         "nixpkgs": [
-          "nixos"
+          "latest"
         ]
       },
       "locked": {
@@ -209,20 +209,19 @@
     "home": {
       "inputs": {
         "nixpkgs": [
-          "nixos"
+          "latest"
         ]
       },
       "locked": {
-        "lastModified": 1624228557,
-        "narHash": "sha256-wwOqe73BsrXfRv1PhyXQFNC8iTET50KvE/HitdkRgxs=",
+        "lastModified": 1628837533,
+        "narHash": "sha256-SQ+3ma51/vkJrk2ISiW1zVqcsQq+dqgUDkus6V5SxrU=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "35a24648d155843a4d162de98c17b1afd5db51e4",
+        "rev": "a965b097b1e0c3bcf22f39413afd1ec6cc1f5335",
         "type": "github"
       },
       "original": {
         "owner": "nix-community",
-        "ref": "release-21.05",
         "repo": "home-manager",
         "type": "github"
       }
@@ -353,20 +352,6 @@
         "type": "indirect"
       }
     },
-    "nur": {
-      "locked": {
-        "lastModified": 1626378135,
-        "narHash": "sha256-koC6DBYmLCrgXA+AMHVaODf1uHYPmvcFygHfy3eg6vI=",
-        "owner": "nix-community",
-        "repo": "NUR",
-        "rev": "00c2ec8f0bbdf0cfb2135bde55fbae5d6b64aa6d",
-        "type": "github"
-      },
-      "original": {
-        "id": "nur",
-        "type": "indirect"
-      }
-    },
     "nvfetcher": {
       "inputs": {
         "flake-compat": [
@@ -429,9 +414,8 @@
         "nixos": "nixos",
         "nixos-hardware": "nixos-hardware",
         "nixpkgs": [
-          "nixos"
+          "latest"
         ],
-        "nur": "nur",
         "nvfetcher": "nvfetcher",
         "vscode": "vscode"
       }
