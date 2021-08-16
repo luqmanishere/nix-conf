@@ -145,7 +145,7 @@
             };
           };
           users = {
-            nixos = { suites, ... }: { imports = suites.base; };
+            nixos = { suites, ... }: { imports = suites.base; shells.zsh.enable = true; };
           }; # digga.lib.importers.rakeLeaves ./users/hm;
         };
 
